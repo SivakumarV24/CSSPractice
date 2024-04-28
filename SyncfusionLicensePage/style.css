@@ -1,0 +1,249 @@
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 18px;
+}
+*{
+    box-sizing: border-box;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    line-height: 1.42857143;
+}
+.product
+{
+    margin-right: 12px;
+    display: inline-block;
+    border-radius: 6px;
+    background-color: #FFE985;
+    color: #000;
+    width: 72px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 10px;
+    padding: 1px 6px;
+}
+.nav1 .row .col ul li a,.nav1 .row .col ul li i{
+    color: #3d3d3d;
+}
+.nav1 .row .col ul {
+    width: 100%;
+    margin-left: -10%;
+}
+.banner
+{
+    color: #1C243F;
+    width: unset;
+    text-align: center;
+    display: inline;
+    letter-spacing: 0.16px;
+    font-size: 12px;
+}
+.tryit
+{
+    color: #ce3a00;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+}
+.nav2{
+    font-size: 14px;
+    height: 50px;
+    background-color: #000;
+    color: white;
+    padding: 8px 0px;
+}
+.nav1
+{
+    color: #666666;
+    padding: 2px 0px;
+    font-size: 12px;
+    background-color: #f6f6f6;
+}
+.logo{
+    color: #4a90e2;
+    position: relative;
+    top:-7;
+    margin-left: 15%;
+}
+.btn{
+    background-color: transparent;
+    border:2px solid white;
+    padding: 6px 18px;
+    color: white;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.product
+{
+    margin-left: -6%;
+}
+.btn1{
+    background-color: #4a90e2;
+    color: white;
+    border: 0.5px outset whitesmoke;
+    padding: 6px 18px;
+    border-radius: 5px;
+
+}
+.price h1{
+    padding: 10px 0px 0px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.price p{
+    margin: 0px 0px 25px;
+    text-align: center;
+    color: #fff;
+}
+.list{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #fff;
+    background: rgba(0, 0, 0, .2);
+    border: none;
+    cursor: pointer;
+    padding: 13px 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bolder;
+}
+.list:hover{
+    color: #fff;
+    background: #4a90e2;
+    border: none;
+}
+.list:active{
+    color: #0073dc;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+.container
+{
+    width: 100%;
+    padding-top: 2em;
+    height: auto;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(-180deg, #0b0f91 0%, #033ea9 100%)
+}
+.container2
+{
+    width: 28%;
+    height: 81%;
+    background-color: #fff;
+    text-align: center;
+    float: left;
+    padding: 20px 20px;
+    padding-top: 40px;
+    margin-right: 50px;
+    border:0.1px solid rgb(226, 226, 226);
+}
+.container2:hover,.container3:hover
+{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .2),-2px -2px 2px 2px rgba(0, 0, 0, .2);
+}
+.container3
+{
+    border: 1px solid #f29941;
+    border-radius: 5px;
+    width: 28%;
+    background-color: #FEFAF5;
+    text-align: center;
+    float: left;
+    padding: 20px 20px;
+    margin-right: 50px;
+}
+.license
+{
+    padding: 0;
+    margin: 25px 0px 7px;
+    text-align: center;
+}
+.container1
+{
+    padding: 0px 100px;
+    margin-right: 50px;
+    margin-left: 80px;
+    align-content: center;
+}
+.rupee h1
+{
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    margin: 0px 0px 28px;
+    line-height: 1.42857143;
+    margin-bottom: 20px;
+}
+.permonth .rup
+{
+    text-align: center;
+    color: black;
+    font-size: medium;
+    font-weight: 300;
+    padding: 15px 0px;
+}
+.title
+{
+    margin: 2px 0px 10px;
+    padding: 10px 10px 0px;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    line-height: 2;
+    font-weight: bold;
+    text-align: center;
+}
+.permonth
+{
+    margin-bottom: 20px;
+}
+.subtitle
+{
+    color: #475569;
+    margin-bottom: 20px;
+}
+.buybtn
+{
+    width: 80%;
+    padding: 15px;
+    border:none;
+    background-color: #0073dc;
+    font-weight: bold;
+    color: white;
+}
+.platformul{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    margin-left: -6%;
+}
+.benefits
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+
+}
+.subscription
+{
+    padding-left: 170px;
+    margin-left: 70px;
+    margin-top: 10px;
+    font-weight: bolder;
+}

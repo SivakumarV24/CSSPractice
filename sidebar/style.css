@@ -1,0 +1,42 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gray;
+    
+}
+.container{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    width: 200px;
+    height: 100%;
+    margin-left: -0.5%;
+    background-color: white;
+
+}
+.container ul {
+    display: block;
+    list-style: none;
+}
+.content{
+    padding: 30px 15px;
+    font-weight: 900;
+    font-size: 25px;
+    margin-left: -24%;
+    background-color: gray;
+}
+.content i{
+    font-size: 20px;
+    margin-left: 29%;
+}
+li
+{
+    padding: 20px 10px;
+    text-align: left;
+    margin-left: -20%;
+    font-size: 20px;
+}
+li:hover
+{
+    background-color: rgb(120, 232, 120);
+}
