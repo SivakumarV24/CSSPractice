@@ -1,0 +1,252 @@
+.logo img{
+    width: 140px;
+    max-width: 95%;
+    height: 45px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul li{
+    margin-right: 2.5rem;
+    font-size: 20px;
+}
+.book
+{
+    padding: 10px 16px;
+    background: white;
+    color: orangered;
+    border: 2px solid;
+    border-radius: 12px;
+    margin-right: 1rem;
+}
+.trail
+{
+    padding: 10px 16px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 12px;
+}
+.section
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6px;
+}
+.section1
+{
+    text-align: center;
+    padding: 5rem;
+    margin-top: -2rem;
+}
+.section1 h1{
+    font-size:50px;
+    font-weight: bolder;
+    color: rgb(6, 6, 79);
+}
+.subtitle
+{
+    margin-top: -1rem;
+    color: rgb(6, 6, 79);
+    font-weight: 800;
+    font-size:18px;
+    line-height: 2rem;
+}
+
+.row-image
+{
+    width: 10%;
+    height: 7%;
+    padding: 19px 0px;
+}
+.row1
+{
+    display: flex;
+    color: rgb(6, 6, 79);
+    gap: 24px;
+    border: 1px solid #bdbaba;
+    box-sizing: border-box;
+    padding: 19px;
+    width: 75%;
+    border-radius: 42px;
+    margin: 42px 20px;
+    background-color: white;
+}
+.desc
+{
+    line-height: 1.7rem;
+    margin-top: -0.7rem;
+    cursor: pointer;
+}
+.support
+{
+    color: red;
+}
+.col2
+{
+    padding: 30px 80px;
+    margin-right: 4%;
+    border: none;
+    box-shadow: 2px 2px 2px 6px rgba(0, 0, 0, 0.2);
+    max-width: 450px;
+    background-color: white;
+    border-radius: 42px;
+    
+}
+.messageform-name
+{
+    text-align: center;
+    margin: 40px 0px;
+}
+.label
+{
+    line-height: 2rem;
+    padding:5px 0px;
+    color: rgb(140, 140, 140);
+}
+input
+{
+    width: 100%;
+    padding: 6px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 6px;
+}
+.label input:hover
+{
+    border: 1px solid rgb(79, 28, 6);
+}
+.textarea
+{
+    height: 12%;
+}
+.star
+{
+    color: red;
+}
+.btn1
+{
+    margin-top: 1rem;
+    padding: 8px 0px;
+    width: 100%;
+    font-size: 16px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 6px;
+}
+.messageform-footer
+{
+    text-align: center;
+}
+.policy
+{
+    color: rgb(6, 6, 79);
+}
+.section2
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(222, 250, 241);
+    padding: 50px 20px;
+}
+.office1,.office2,.office3,.office4{
+    display: flex;
+    gap: 30px;
+    width: 40%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid;
+    margin-bottom: 4rem;
+    border-radius: 20px;
+}
+.officeimage
+{
+    width: 180px;
+    height: 120px;
+}
+.office
+{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+.title-location
+{
+    text-align: center;
+    padding: 30px 0px;
+}
+.section3
+{
+    padding: 30px 20px;
+}
+.commanimages
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.section4
+{
+    box-sizing: border-box;
+    background-color: rgb(233, 251, 245);
+    padding: 60px 84px 0px;
+}
+.footer-details
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-list ul
+{
+    list-style-type: none;
+}
+.footer-list ul li
+{
+    color: rgb(6, 6, 79);
+    text-align: left;
+    line-height: 2rem;
+    cursor:pointer;
+}
+.footer-list ul h6
+{
+    color: rgb(6, 6, 79);
+    margin: 24px 0px;
+    font-size: 18px;
+}
+.terms ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.terms ul li{
+    margin-right: 20px;
+
+}
+.footer-last
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233, 251, 245);;
+}
+.Bold1
+{
+    width: 200px;
+    height: 40px;
+}
+.logo1
+{
+    display: flex;
+    justify-content: left;
+}
